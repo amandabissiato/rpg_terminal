@@ -20,3 +20,22 @@ x= {
     'banana': 3.60,
     'uva': 7.60
 }
+x.update({'morango':5.90,'pera':4.50})
+for k,v in x.items():
+    x[k] = v* 1.20
+
+x= {
+    'maca': {
+        'preco': 20,
+        'quantidade':10
+    },
+
+}
+for k,v in x.items ():
+  x.get (k)['preco']*=1.15
+  print(x)
+
+
+  for k,v in x.items():
+    x.get(k)['quantidade']+=20
+    print(x)
